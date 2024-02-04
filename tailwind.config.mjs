@@ -6,6 +6,10 @@ export default {
   ],
   prefix: "",
   theme: {
+    fontFamily: {
+      space: ["Space Grotesk"],
+      inter: ["Inter"]  ,
+    },
     container: {
       center: true,
       padding: "2rem",
