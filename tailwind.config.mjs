@@ -19,6 +19,10 @@ export default {
     },
     extend: {
       colors: {
+        "pizza-red": "#F11D39",
+        "pizza-white": "#FFFCFC",
+        "pizza-black": "#0F0F0F",
+        "pizza-purple": "#CB1DF2",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
