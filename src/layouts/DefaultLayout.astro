@@ -1,5 +1,5 @@
 ---
-// relevant imports go here
+import Header from "../components/header";
 ---
 
 <html>
@@ -8,9 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Pizza Planet</title>
   </head>
-  <body
-    class="mx-[8px] sm:mx-[96px] my-[20px] space-y-12 sm:space-y-24 bg-pizza-white"
-  >
-    <slot />
+  <body class="mx-[8px] sm:mx-[96px] my-[20px] bg-pizza-white space-y-8">
+    <Header />
+    <div class="space-y-32 sm:space-y-48">
+      <slot />
+    </div>
   </body>
 </html>

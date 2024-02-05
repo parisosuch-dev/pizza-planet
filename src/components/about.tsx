@@ -8,7 +8,7 @@ export default function About() {
                 src={purplePlanets.src}
                 className="w-[64px] sm:w-[256px]"
             />
-            <p className="sm:w-1/3 text-[12px] sm:text-[24px]">Pizza Planet is a unique pizza restaurant and arcade that takes you on a journey through outer space. With its alien-themed décor and rocket ship designs, it offers a dining experience like no other. Our menu features a wide variety of delicious pizzas with out-of-this-world flavors.</p>
+            <p className="sm:w-1/3 text-[12px] sm:text-[24px] font-inter">Pizza Planet is a unique pizza restaurant and arcade that takes you on a journey through outer space. With its alien-themed décor and rocket ship designs, it offers a dining experience like no other. Our menu features a wide variety of delicious pizzas with out-of-this-world flavors.</p>
         </div>
     )
 }
