@@ -14,7 +14,7 @@ export default function Nav() {
                 <a className={linkStyle}>Contact</a>
             </div>
             <div>
-                <Button className="bg-pizza-red hover:bg-pizza-red/75 w-[96px] sm:w-[128px] font-inter text-[12px] sm:text-[16px] font-medium">Order</Button>
+                <Button className="bg-pizza-red hover:bg-pizza-red/75 w-[64px] h-[28px] sm:h-[48px] sm:w-[128px] font-inter text-[12px] sm:text-[16px] font-medium">Order</Button>
             </div>
         </div>
     );
