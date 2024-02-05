@@ -1,7 +1,7 @@
 import { Button } from "./button";
 
 export default function Nav() {
-    const linkStyle = "font-inter text-[12px] sm:text-[16px] font-medium hover:underline hover:cursor-pointer"
+    const linkStyle = "font-inter text-[10px] sm:text-[16px] font-medium hover:underline hover:cursor-pointer"
 
     return (
         <div className="flex flex-col sm:flex-row sm:space-x-12 space-y-2 sm:space-y-0 items-center">
@@ -14,7 +14,7 @@ export default function Nav() {
                 <a className={linkStyle}>Contact</a>
             </div>
             <div>
-                <Button className="bg-pizza-red hover:bg-pizza-red/75 w-[64px] h-[28px] sm:h-[48px] sm:w-[128px] font-inter text-[12px] sm:text-[16px] font-medium">Order</Button>
+                <Button className="bg-pizza-red hover:bg-pizza-red/75 w-[64px] h-[28px] sm:h-[48px] sm:w-[128px] font-inter text-[10px] sm:text-[16px] font-medium">Order</Button>
             </div>
         </div>
     );
